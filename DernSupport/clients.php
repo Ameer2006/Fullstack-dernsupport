@@ -33,15 +33,14 @@ session_start();
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse col-4" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse " id="navbarResponsive">
+                    <ul class="navbar-nav ms-3 me-5  ">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">FAQs</a></li>
                         <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
-                </div>
-                <ul class="navbar-nav col-5 d-flex justify-content-end">
+                    <ul class="navbar-nav ms-4">
                     <?php
                         if(isset($_SESSION['username'])) {
                             
@@ -73,6 +72,8 @@ session_start();
 
 
                 </ul>
+                </div>
+                
             </div>
         </nav>
 
@@ -207,7 +208,8 @@ session_start();
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top"
-                                src="https://kimostore.net/cdn/shop/files/LenovoLaptopCharger20V-11.5A_USBSquarePin_Original_1.jpg?v=1689065113&width=600"
+                                style="height: 170px;"
+                                src="https://th.bing.com/th/id/OIP.t07ynZfbHCMTKdOgyiwOvgAAAA?w=237&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"
                                 alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -234,7 +236,8 @@ session_start();
                             </div>
                             <!-- Product image-->
                             <img class="card-img-top"
-                                src="https://kimostore.net/cdn/shop/products/SamsungRV511-RV509-RV580-R428-R438-NP300LaptopBattery_2.jpg?v=1684745432&width=130"
+                                style="height: 170px;"
+                                src="https://th.bing.com/th/id/R.4d162dfefc307f462b41ba96ec323520?rik=wPs6X4fnh7R%2bcQ&riu=http%3a%2f%2fwww.autocarhire.com%2ftravelblog%2fwp-content%2fuploads%2f2012%2f10%2fLi-ion-Laptop-Batteries-for-HP-DV2000.jpg&ehk=yc6COiT7Qo4DBVSGlhEKOmCqKs3Pi%2bQh7CQPMhN%2fUjU%3d&risl=&pid=ImgRaw&r=0"
                                 alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -262,7 +265,8 @@ session_start();
                             </div>
                             <!-- Product image-->
                             <img class="card-img-top"
-                                src="https://kimostore.net/cdn/shop/files/ToshibaSatelliteC660LaptopInternalFan_2.jpg?v=1694437954&width=600"
+                                style="height: 170px;"
+                                src="https://th.bing.com/th?q=Round+Frame+PC+Fans&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.1&pid=InlineBlock&mkt=en-US&cc=US&setlang=en&adlt=strict&t=1&mw=247"
                                 alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -286,7 +290,8 @@ session_start();
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top"
-                                src="https://kimostore.net/cdn/shop/files/ToshibaSatelliteC850-L850LaptopInternalKeyboard.png?v=1696856935&width=1000"
+                                style="height: 170px;"
+                                src="https://th.bing.com/th?id=OPHS.fh%2fzS8M0LQs1lA474C474&w=120&h=120&c=17&o=6&dpr=1.1&pid=21.1"
                                 alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -313,6 +318,7 @@ session_start();
                             </div>
                             <!-- Product image-->
                             <img class="card-img-top"
+                                style="height: 170px;"
                                 src="https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/642027_326157_01_front_thumbnail.jpg"
                                 alt="...">
                             <!-- Product details-->
@@ -337,6 +343,7 @@ session_start();
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top"
+                                style="height: 170px;"
                                 src="https://m.media-amazon.com/images/I/61WgIToO55L._AC._SR360,460.jpg" alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -364,6 +371,7 @@ session_start();
                             </div>
                             <!-- Product image-->
                             <img class="card-img-top"
+                                style="height: 170px;"
                                 src="https://m.media-amazon.com/images/I/51ktk8Db0TL._AC_UL320_T1F_.jpg" alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
@@ -387,6 +395,7 @@ session_start();
                         <div class="card h-100">
                             <!-- Product image-->
                             <img class="card-img-top"
+                                style="height: 170px;"
                                 src="https://m.media-amazon.com/images/I/61JkeSh75NL._AC._SR360,460.jpg" alt="...">
                             <!-- Product details-->
                             <div class="card-body p-4">
